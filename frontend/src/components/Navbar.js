@@ -807,7 +807,7 @@ function Navbar() {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About Us</Link></li>
             <li><Link to="/location">Our Location</Link></li>
-            <li><Link to="/special-offers">Special Offers</Link></li>
+            <li><Link to="/buy">Products</Link></li>
             <li><Link to="/contact">Contact Us</Link></li>
           </ul>
 
@@ -877,7 +877,7 @@ function Navbar() {
                   <li><Link to="/" onClick={() => closeMobileMenu(false)}>Home</Link></li>
                   <li><Link to="/about" onClick={() => closeMobileMenu(false)}>About Us</Link></li>
                   <li><Link to="/location" onClick={() => closeMobileMenu(false)}>Our Location</Link></li>
-                  <li><Link to="/special-offers" onClick={() => closeMobileMenu(false)}>Special Offers</Link></li>
+                  <li><Link to="/buy" onClick={() => closeMobileMenu(false)}>Products</Link></li>
                   <li><Link to="/contact" onClick={() => closeMobileMenu(false)}>Contact Us</Link></li>
                 </ul>
                 {/* SparklingStars animation appears here under the "Contact Us" item */}

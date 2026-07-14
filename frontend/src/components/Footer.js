@@ -6,8 +6,9 @@ import {
   FaWhatsapp, 
   FaFacebookF, 
   FaTwitter, 
-  FaInstagram, 
+  FaInstagram,
   FaLinkedinIn,
+  FaTiktok,
   FaMapMarkerAlt,
   FaEnvelope,
   FaPhone,
@@ -42,6 +43,7 @@ function Footer() {
     { href: 'https://twitter.com/yourprofile', icon: FaTwitter, label: 'Twitter' },
     { href: 'https://www.instagram.com/mobilecareuk1', icon: FaInstagram, label: 'Instagram' },
     { href: 'https://linkedin.com/yourprofile', icon: FaLinkedinIn, label: 'LinkedIn' },
+    { href: 'https://www.tiktok.com/@himobilecare', icon: FaTiktok, label: 'TikTok' },
   ];
 
   const footerNavLinks = [
